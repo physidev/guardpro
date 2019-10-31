@@ -1,0 +1,95 @@
+{
+  "nodes": [
+    {
+      "question": "unresponsive?",
+      "options": [
+        {
+          "text": "yes"
+        },
+        {
+          "text": "no"
+        }
+      ]
+    },
+    {
+      "question": "Call 911 for serious injuries. What is the injury?",
+      "options": [
+        {
+          "text": "Suspected spinal injury"
+        },
+        {
+          "text": "Heart attack"
+        },
+        {
+          "text": "Stroke"
+        },
+        {
+          "text": "Allergic reaction"
+        },
+        {
+          "text": "Fainting"
+        },
+        {
+          "text": "Seizures"
+        },
+        {
+          "text": "Diabetic emergencies"
+        },
+        {
+          "text": "Poisoning"
+        },
+        {
+          "text": "Alcohol and other drug emergencies"
+        },
+        {
+          "text": "Bites and stings"
+        },
+        {
+          "text": "Heat emergencies"
+        },
+        {
+          "text": "Cold emergencies"
+        }
+      ]
+    },
+    {
+      "question": "Activate Emergency Action Plan?",
+      "options": [
+        {
+          "text": "yes"
+        },
+        {
+          "text": "no"
+        }
+      ]
+    },
+    {
+      "question": "Retrieve equipment, put on gloves, ready backgoard at extrication point and call 911. Extricate six feet away from the water. Conduct a pulse and breathing assessment for 10 seconds.",
+      "options": [
+        {
+          "text": "Yes pulse, no breathing"
+        },
+        {
+          "text": "No pulse, no breathing"
+        }
+      ]
+    },
+    {
+      "question" : "Conduct CPR with AED and supplemental oxygen.",
+      "button" : {
+        "text" : "Show chart",
+        "content" : {
+          "image" : "lifesupport.png"
+        }
+      },
+      "options" : [
+        {
+          "text" : "Yes pulse, yes breathing"
+        }
+      ]
+    },
+    {
+      "question" : "Recovery position, monitor for normal blood oxygen levels."
+    }
+  ]
+}
