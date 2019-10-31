@@ -1,0 +1,16 @@
+.section {
+	border:none;
+	background-color:#FFFFFF;
+	padding:15px;
+	font-size:15px;
+}
+
+#accordion .section .active, #accordion .section::hover {
+	background-color:#EFEFEF;
+}
+
+#accordion .panel {
+	padding:15px;
+	display:none;
+	overflow:hidden;
+}
