@@ -1,12 +1,19 @@
-.section {
-	border:none;
-	background-color:#FFFFFF;
+#search {
+	width:100%;
 	padding:15px;
 	font-size:15px;
 }
 
-#accordion .section .active, #accordion .section::hover {
-	background-color:#EFEFEF;
+.button {
+	border:none;
+	background-color:#AAAAAA;
+	padding:15px;
+	font-size:15px;
+	width:100%;
+}
+
+.active, .button:hover {
+	background-color:#999999;
 }
 
 #accordion .panel {
