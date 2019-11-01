@@ -1,6 +1,15 @@
 
 #question {
 	text-align:center;
+	padding-bottom:30px;
+}
+
+#button {
+	padding-bottom:30px;
+}
+
+#options {
+	overflow:hidden;
 }
 
 #options button {
