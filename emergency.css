@@ -25,6 +25,7 @@
 
 #options button:hover {
 	background-color:#CCCCCC;
+	cursor:pointer;
 }
 
 image {
