@@ -9,17 +9,35 @@ html {
 	font-family: 'Open Sans', sans-serif;
 }
 
+body {
+	top:0;
+	margin:0;
+	padding-top:30px;
+	font-family:'Crimson Text';
+	width:100%;
+	min-height:100%;
+	background:linear-gradient(#a6f2fc, #5ebcc9);
+}
+
 body .main-content {
 	max-width:1250px;
 	display:block;
-	margin:30px auto;
+	margin:auto;
 	
 	background:#FEFEFE;
 	padding:30px;
-	margin-top:30px;
 	border-radius:10px;
 	font-family: 'Open Sans', sans-serif;
 }
+
+@media screen and (orientation: portrait), screen and (max-width: 800px) {
+	.main-content {
+		width:95vw;
+		height:95vh;
+		margin:auto;
+	}
+}
+
 
 
 h1 {
@@ -37,13 +55,24 @@ h1 {
 	border-radius:5px;
 }
 
-body {
-	top:0;
-	margin:0;
-	font-family:'Crimson Text';
-	width:100%;
-	min-height:100%;
-	background:linear-gradient(#a6f2fc, #5ebcc9);
+ul {
+	list-style-type:none;
+	padding:0;
+}
+
+li a {
+	width:95%;
+	display:block;
+	padding:15px;
+	border-radius:5px;
+	margin:10px auto;
+	text-decoration:none;
+	color:black;
+	background:#EEEEEE;
+}
+
+li a:hover {
+	background:#CCCCCC;
 }
 
 .button {

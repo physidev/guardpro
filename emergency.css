@@ -1,3 +1,11 @@
+@media screen and (orientation: portrait), screen and (max-width: 800px) {
+	.main-content {
+		width:95vw;
+		height:95vh;
+		margin:auto;
+	}
+}
+
 #question {
 	text-align:center;
 }
