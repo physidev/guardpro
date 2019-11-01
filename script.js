@@ -36,7 +36,7 @@ function search() {
 function addCheckBox() {
 	var checklist = document.getElementsByClassName("checklist")[0];
 }
-
+/*
 function displayNode(n) {
 	var question = document.getElementById("question");
 	var button = document.getElementById("button");
