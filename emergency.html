@@ -3,18 +3,19 @@
 	<head>
 		<title>GuardPro</title>
 		<link href="style.css" rel="stylesheet">
-		<link href="checklists.css" rel="stylesheet">
+		<link href="emergency.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
 		<script type="text/javascript" src="script.js"></script>
 	</head>
 	
-	<body onload="init();">
+	<body onload="init(); displayNode(0);">
 		<div class="main-content">
-		
-			<div class="checklist">
-				
+			<h1>EMERGENCY</h1>
+			<div id="currentNode">
+				<div id="question"></div>
+				<div id="button"></div>
+				<div id="options"></div>
 			</div>
-			<button id="addCheckbox" onclick="addCheckbox();">Add checkbox</button>
 		</div>
 	</body>
 </html>

@@ -4,10 +4,12 @@
       "question": "unresponsive?",
       "options": [
         {
-          "text": "yes"
+          "text": "yes",
+          "goto" : 2
         },
         {
-          "text": "no"
+          "text": "no",
+          "goto" : 1
         }
       ]
     },
@@ -56,7 +58,8 @@
       "question": "Activate Emergency Action Plan?",
       "options": [
         {
-          "text": "yes"
+          "text": "yes",
+          "goto" : 3
         },
         {
           "text": "no"
@@ -75,21 +78,37 @@
       ]
     },
     {
-      "question" : "Conduct CPR with AED and supplemental oxygen.",
-      "button" : {
-        "text" : "Show chart",
-        "content" : {
-          "image" : "lifesupport.png"
+      "question": "Conduct CPR with AED and supplemental oxygen.",
+      "button": {
+        "text": "Show chart",
+        "content": {
+          "image": "lifesupport.png"
         }
       },
-      "options" : [
+      "options": [
         {
-          "text" : "Yes pulse, yes breathing"
+          "text": "Yes pulse, yes breathing",
+          "goto" : 5
         }
       ]
     },
     {
-      "question" : "Recovery position, monitor for normal blood oxygen levels."
+       "question": "Rescue breathing and supplemental oxygen",
+      "button": {
+        "text": "Show chart",
+        "content": {
+          "image": "lifesupport.png"
+        }
+      },
+      "options": [
+        {
+          "text": "Yes pulse, yes breathing",
+          "goto" : 5
+        }
+      ]
+    },
+    {
+      "question": "Recovery position, monitor for normal blood oxygen levels."
     }
   ]
 }
