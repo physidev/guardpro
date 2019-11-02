@@ -78,7 +78,8 @@
           "next": 3
         },
         {
-          "text": "No"
+          "text": "Return to start",
+		  "next" : 0
         }
       ]
     },
