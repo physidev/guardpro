@@ -68,12 +68,12 @@ h1,h2 {
 	border-radius:5px;
 }
 
-ul {
+#main-options {
 	list-style-type:none;
 	padding:0;
 }
 
-li a {
+#main-options li a {
 	width:95%;
 	display:block;
 	padding:15px;
@@ -84,7 +84,7 @@ li a {
 	background:#EEEEEE;
 }
 
-li a:hover {
+#main-options li a:hover {
 	background:#CCCCCC;
 }
 
@@ -126,4 +126,32 @@ li a:hover {
 
 img {
 	max-width:100%;
+	display:block;
+	margin:auto;
+}
+
+table {
+}
+
+th, td {
+	padding:5px;
+	border-radius:5px;
+}
+th {
+	background-color:#97fcee;
+}
+
+#green {
+	background-color:#a8fc97;
+	border-radius:5px;
+}
+
+#yellow {
+	background-color:#f4fc97;
+	border-radius:5px;
+}
+
+#red {
+	background-color:#fc97a3;
+	border-radius:5px;
 }
